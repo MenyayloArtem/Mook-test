@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+$light: #fceff9;
+
+body {
+  margin: 0;
+  font-family: Montserrat;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h2 {
+  margin: 0;
+}
+
+.App {
+  margin: 0 auto;
+  width: 375px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(#6600ff), to(#00cc99)) 0%
+    0% no-repeat padding-box;
+  background: transparent -o-linear-gradient(top, #6600ff 0%, #00cc99 100%) 0%
+    0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #6600ff 0%, #00cc99 100%) 0%
+    0% no-repeat padding-box;
+}
+
+header,
+footer {
+  background: #fceff9;
+}
+
+button,
+input {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: "Test Sohne";
+  src: url("./fonts/TestSohne.otf");
+}
+
+@font-face {
+  font-family: "Test Sohne K";
+  src: url("./fonts/TestSohne-K.otf");
+}
+
+@font-face {
+  font-family: "Test Sohne Buch";
+  src: url("./fonts/TestSohne-Buch.otf");
+}
+
+@font-face {
+  font-family: "SF Pro";
+  src: url("./fonts/SF-Pro.ttf");
+}

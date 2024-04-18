@@ -1,0 +1,86 @@
+.ImagePage {
+  background: transparent -o-linear-gradient(30deg, #6600ff 0%, #00cc99 80%) 0% 0%
+    no-repeat padding-box;
+  background: transparent linear-gradient(60deg, #6600ff 0%, #00cc99 80%) 0% 0%
+    no-repeat padding-box;
+  height: 100vh;
+
+  .container {
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .goBackButton {
+    padding: 7px 21px;
+    font-size: 30px;
+    font-family: "Test Sohne";
+  }
+
+  &__content {
+    padding-top: 52px;
+
+    .buttons {
+      margin-top: 40px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      gap: 22px;
+    }
+  }
+
+  &__preview {
+    position: relative;
+    margin-top: 50px;
+    width: 315px;
+    height: 315px;
+    -webkit-box-shadow: inset 3px 3px 6px #eee5e9;
+    box-shadow: inset 3px 3px 6px #eee5e9;
+    border: 3px solid #eee5e9;
+    overflow: hidden;
+    border-radius: 20px;
+
+    * {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+
+.blurButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 143px;
+  height: 143px;
+  background: transparent -o-linear-gradient(
+      315deg,
+      #fff7fc66 0%,
+      #ffffff66 0%,
+      #ffffff00 100%
+    ) 0% 0% no-repeat padding-box;
+  background: transparent
+    linear-gradient(135deg, #fff7fc66 0%, #ffffff66 0%, #ffffff00 100%) 0% 0%
+    no-repeat padding-box;
+  -webkit-box-shadow: inset 3px 3px 6px #eee5e9;
+  box-shadow: inset 3px 3px 6px #eee5e9;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  gap: 10px;
+  padding: 17px 10px;
+  text-align: center;
+  font: normal normal normal 15px/20px "Test Sohne";
+  color: #fceff9;
+  cursor: pointer;
+}

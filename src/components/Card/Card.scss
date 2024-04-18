@@ -1,0 +1,42 @@
+@import "../../App.scss";
+
+.card {
+  width: 308px;
+  height: 360px;
+  padding: 13.5px;
+  padding-bottom: 19px;
+  background: transparent -o-linear-gradient(
+      310deg,
+      #fff7fc66 0%,
+      #ffffff66 0%,
+      #ffffff00 100%
+    ) 0% 0% no-repeat padding-box;
+  background: transparent
+    linear-gradient(140deg, #fff7fc66 0%, #ffffff66 0%, #ffffff00 100%) 0% 0%
+    no-repeat padding-box;
+  -webkit-box-shadow: inset 3px 3px 6px #eee5e9;
+  box-shadow: inset 3px 3px 6px #eee5e9;
+  border-radius: 30px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  cursor: pointer;
+
+  &__photo {
+    width: 281px;
+    height: 281px;
+    background: #fff;
+    border-radius: 30px;
+    overflow: hidden;
+
+    img {
+      max-height: 100%;
+    }
+  }
+
+  &__title {
+    color: $light;
+    margin-top: 11px;
+    font-size: 35px;
+    font-weight: 700;
+  }
+}

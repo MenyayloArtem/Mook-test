@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 import { ReactComponent as CloseSVG } from "../../svg/close.svg";
 import "./Modal.scss";
 
-export default function SignIn({ onClose, show, onSignIn }) {
+export default function Modal({ onClose, show, onSignIn }) {
   const signInHandler = () => {
     onSignIn();
     onClose();

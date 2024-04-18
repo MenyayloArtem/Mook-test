@@ -16,7 +16,7 @@ function App() {
   });
 
   useEffect(() => {
-      setAnimation(getAnimation(location));
+    setAnimation(getAnimation(location));
   }, [location.pathname]);
 
   return (

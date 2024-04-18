@@ -13,7 +13,7 @@ body {
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h2 {
@@ -25,10 +25,15 @@ h2 {
   width: 375px;
   min-height: 100vh;
   overflow-x: hidden;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(#6600ff), to(#00cc99)) 0%
-    0% no-repeat padding-box;
-  background: transparent -o-linear-gradient(top, #6600ff 0%, #00cc99 100%) 0%
-    0% no-repeat padding-box;
+  background: transparent -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#6600ff),
+      to(#00cc99)
+    ) 0% 0% no-repeat padding-box;
+  background: transparent -o-linear-gradient(top, #6600ff 0%, #00cc99 100%) 0% 0%
+    no-repeat padding-box;
   background: transparent linear-gradient(180deg, #6600ff 0%, #00cc99 100%) 0%
     0% no-repeat padding-box;
 }
